@@ -23,18 +23,7 @@ const Filiere = ()=>{
             
             <div>
               <section className={style.section}>
-              <img src="image1" alt="slide1" />
-              <h2>titre</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas corrupti non quis earum porro harum est amet. Accusamus doloribus dicta autem, nostrum placeat vel sit necessitatibus dolorem omnis vero praesentium laboriosam officia voluptatum! Incidunt aspernatur sapiente iure, et impedit temporibus aliquam veritatis consequuntur? Deleniti, perferendis. Illo eum sequi quas expedita?</p>
-                <button>commencer</button>
-              </section>
-             
-              
-                
-            </div>
-            <div>
-              <section className={style.section}>
-              <img src="image1" alt="slide1" />
+            <div className={style.imges}></div>
               <h2>titre</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas corrupti non quis earum porro harum est amet. Accusamus doloribus dicta autem, nostrum placeat vel sit necessitatibus dolorem omnis vero praesentium laboriosam officia voluptatum! Incidunt aspernatur sapiente iure, et impedit temporibus aliquam veritatis consequuntur? Deleniti, perferendis. Illo eum sequi quas expedita?</p>
                 <button>commencer</button>
@@ -44,7 +33,7 @@ const Filiere = ()=>{
                 
             </div> <div>
               <section className={style.section}>
-              <img src="image1" alt="slide1" />
+            <div className={style.imges}></div>
               <h2>titre</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas corrupti non quis earum porro harum est amet. Accusamus doloribus dicta autem, nostrum placeat vel sit necessitatibus dolorem omnis vero praesentium laboriosam officia voluptatum! Incidunt aspernatur sapiente iure, et impedit temporibus aliquam veritatis consequuntur? Deleniti, perferendis. Illo eum sequi quas expedita?</p>
                 <button>commencer</button>
@@ -52,10 +41,19 @@ const Filiere = ()=>{
              
               
                 
-            </div>
-            <div>
+            </div> <div>
               <section className={style.section}>
-              <img src="image1" alt="slide1" />
+            <div className={style.imges}></div>
+              <h2>titre</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas corrupti non quis earum porro harum est amet. Accusamus doloribus dicta autem, nostrum placeat vel sit necessitatibus dolorem omnis vero praesentium laboriosam officia voluptatum! Incidunt aspernatur sapiente iure, et impedit temporibus aliquam veritatis consequuntur? Deleniti, perferendis. Illo eum sequi quas expedita?</p>
+                <button>commencer</button>
+              </section>
+             
+              
+                
+            </div> <div>
+              <section className={style.section}>
+            <div className={style.imges}></div>
               <h2>titre</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas corrupti non quis earum porro harum est amet. Accusamus doloribus dicta autem, nostrum placeat vel sit necessitatibus dolorem omnis vero praesentium laboriosam officia voluptatum! Incidunt aspernatur sapiente iure, et impedit temporibus aliquam veritatis consequuntur? Deleniti, perferendis. Illo eum sequi quas expedita?</p>
                 <button>commencer</button>

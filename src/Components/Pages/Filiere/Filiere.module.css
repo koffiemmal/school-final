@@ -45,13 +45,16 @@ body{
     box-shadow: 0 1px 10px black;
 }
 
-.section img{
+.section .imges{
     margin-top: 10px;
     background-color: aqua;
     height: 35vh;
     margin-left: 6vh;
     width: 80%;
-    border-radius: 35px;
+    border-radius: 50px;
+    background-image: url(../../Assets/Logo/3722306.jpg);
+    background-position: center;
+    background-size: cover;
 }
 .section button{
     width: 30vh;

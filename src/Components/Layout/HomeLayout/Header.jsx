@@ -6,6 +6,7 @@ import { useNavigate } from "react-router-dom";
 
 const Header =()=>{
     
+    let navigate = useNavigate()
     return(
 <div>
         <div className={style.header}>
