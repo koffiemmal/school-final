@@ -18,29 +18,6 @@ const Acceuil =()=>{
 
 </div>
            
-
-<footer>
-   <span>
-    <div className={style.instagram}></div>
-         @@Instagram
-    </span>
-   <span>
-    <div className={style.Facebook}></div>
-        @@Facebook
-    </span>
-   <span>
-    <div className={style.twitter}></div>
-       @@Twitter
-    </span>
-   <span>
-    <div className={style.location}></div>
-    @@Localisation
-    </span>
-   <span>
-    <div className={style.contact}></div>
-   @@contact
-    </span>
-</footer>
         </div>
     )
 }

@@ -13,7 +13,7 @@ const Header =()=>{
 
    <div className={style.navbar}>
 <span className={style.acceuil} ><NavLink to={"/"}>Acceuil</NavLink></span>
-    <span>Filiere</span>
+    <span><NavLink to={"/Filiere"}>Filiere</NavLink></span>
     <span>Activite</span>
     <span>About</span>
     <span>contact</span>
@@ -25,7 +25,31 @@ const Header =()=>{
 
         </div>
         <Outlet/>
+       
+        <footer>
+   <span>
+    <div className={style.instagram}></div>
+         @@Instagram
+    </span>
+   <span>
+    <div className={style.Facebook}></div>
+        @@Facebook
+    </span>
+   <span>
+    <div className={style.twitter}></div>
+       @@Twitter
+    </span>
+   <span>
+    <div className={style.location}></div>
+    @@Localisation
+    </span>
+   <span>
+    <div className={style.contact}></div>
+   @@contact
+    </span>
+</footer>
         </div>
+
 
     )
 }

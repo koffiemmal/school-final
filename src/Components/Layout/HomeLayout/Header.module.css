@@ -82,3 +82,76 @@ span:active{
     background:linear-gradient(45deg,grey, rgb(255, 255, 255));
     cursor: pointer;
 }
+footer{
+   
+    height: 15%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+footer span{
+ 
+   
+height: 80px;
+width: 22vh;
+box-shadow: 0 1px 10px black;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 40px;
+}
+.instagram{
+    
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../../Assets/Logo/instagram.png);
+    background-position: center;
+    background-size: cover;
+}
+.Facebook{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../../Assets/Logo/facebook_1377223.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.twitter{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../../Assets/Logo/twitter_3015802.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.location{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../../Assets/Logo/location-pin_8784583.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.contact{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../../Assets/Logo/call_4296502.png);
+    background-position: center;
+    background-size: cover;
+}
