@@ -1,0 +1,84 @@
+.header{
+    display: flex;
+    height: 9vh;
+/*     margin-top: 17px; */
+    width: 100%;
+    justify-content: space-between;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+   
+    align-items: center;
+
+}
+
+.logoEcole{
+    background-color:  rgb(215, 201, 96);
+    width: 16%;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 1px 10px black;
+    color:rgb(5, 125, 136);
+    height: 7vh;
+    background-image: url(../../Assets/Capture\ d’écran\ du\ 2023-08-25\ 00-50-29.png);
+    background-position: center;
+    background-size: cover;
+   
+}
+.navbar{
+   height: 7vh;
+    width:60% ;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0 1px 10px black;
+    background:linear-gradient(45deg,rgb(2, 42, 67),rgb(10, 132, 188))
+}
+
+.login{
+    background-color: rgb(215, 201, 96);
+    width:10% ;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 1px 10px black;
+    color:rgb(5, 125, 136);
+    height: 7vh;
+
+}
+.login span{
+    height: 100%;
+  width: 100% ;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+
+}
+
+.navbar span {
+
+
+   text-decoration: none;
+    height: 100%;
+  width: 100% ;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+}
+
+span:hover{
+    background:linear-gradient(95deg,rgb(2, 42, 67), rgb(215, 201, 96));
+    cursor: pointer;
+}
+span:active{
+    background:linear-gradient(45deg,grey, rgb(255, 255, 255));
+    cursor: pointer;
+}
