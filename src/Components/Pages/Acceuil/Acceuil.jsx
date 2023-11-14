@@ -17,7 +17,7 @@ const Acceuil =()=>{
                     </div>
 
 </div>
-           
+
         </div>
     )
 }

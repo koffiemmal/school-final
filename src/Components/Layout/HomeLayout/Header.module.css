@@ -13,7 +13,7 @@
 }
 
 .logoEcole{
-    background-color:  rgb(215, 201, 96);
+    background-color:  #a294c7,;
     width: 16%;
     border-radius: 50px;
     display: flex;
@@ -35,18 +35,19 @@
     justify-content: space-around;
     align-items: center;
     box-shadow: 0 1px 10px black;
-    background:linear-gradient(45deg,rgb(2, 42, 67),rgb(10, 132, 188))
+    background:linear-gradient(45deg,#a294c7,#ffffff);
+   
 }
 
 .login{
-    background-color: rgb(215, 201, 96);
+    background-color: #a294c7;
     width:10% ;
     border-radius: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
     box-shadow: 0 1px 10px black;
-    color:rgb(5, 125, 136);
+    color:rgb(255, 255, 255);
     height: 7vh;
 
 }
@@ -89,6 +90,7 @@ footer{
     justify-content: space-around;
     align-items: center;
     text-align: center;
+    margin-bottom: 0;
 }
 footer span{
  

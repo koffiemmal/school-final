@@ -14,10 +14,10 @@ const Header =()=>{
 
    <div className={style.navbar}>
 <span className={style.acceuil} ><NavLink to={"/"}>Acceuil</NavLink></span>
-    <span><NavLink to={"/Filiere"}>Filiere</NavLink></span>
-    <span>Activite</span>
-    <span>About</span>
-    <span>contact</span>
+    <span><NavLink to={"/Filiere"}>Formation</NavLink></span>
+    <span><NavLink to={"Activite"}>Activite</NavLink></span>
+    <span>Contact</span>
+    <span>En savoir plus</span>
    </div>
    <div className={style.login}>
 <span>Login</span>
@@ -27,7 +27,7 @@ const Header =()=>{
         </div>
         <Outlet/>
        
-        <footer>
+       {/*  <footer>
    <span>
     <div className={style.instagram}></div>
          @@Instagram
@@ -48,7 +48,7 @@ const Header =()=>{
     <div className={style.contact}></div>
    @@contact
     </span>
-</footer>
+</footer> */}
         </div>
 
 

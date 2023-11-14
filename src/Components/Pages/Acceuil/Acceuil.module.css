@@ -1,6 +1,10 @@
 body{
-  background-image: url(../../Assets/6853085.jpg);
-background-size: auto;
+  background-image: url(../../Assets/pink_purple_vertical_wavy_lines_background.jpg);
+  background-position: center;
+background-size: cover;
+z-index: 5;
+
+height: 100vh;
 
 
 }
@@ -30,7 +34,7 @@ background-size: auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: 0 10px 10px black;
+    box-shadow: 0 10px 10px #a294c7;
 }
 
 .imagesContainer{
@@ -39,7 +43,7 @@ background-size: auto;
     width: 690px;
     height: 690px;
        border-radius: 50%;
-       background-image: url(../../Assets/vue-face-etudiant-sexe-masculin-portant-sac-dos-noir-tenant-cahiers-fichiers-mur-bleu.jpg);
+       background-image: url(../../Assets/jeune-belle-etudiante-sac-dos-fait-selfie-isole-mur-blanc-studio.jpg);
        background-position: center;
   background-size: cover;
    
@@ -57,7 +61,8 @@ background-size: auto;
     color: white;
     font-weight: bold;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    box-shadow: 0 1px 10px black;
+    box-shadow: 0 1px 10px #a294c7;
    border-radius: 12px;
+   background-color: #393B65;
     
 }
