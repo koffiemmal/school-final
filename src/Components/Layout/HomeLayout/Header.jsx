@@ -16,11 +16,11 @@ const Header =()=>{
 <span className={style.acceuil} ><NavLink to={"/"}>Acceuil</NavLink></span>
     <span><NavLink to={"/Filiere"}>Formation</NavLink></span>
     <span><NavLink to={"Activite"}>Activite</NavLink></span>
-    <span>Contact</span>
-    <span>En savoir plus</span>
+    <span><NavLink to={"/Chat"}>Salon</NavLink></span>
+  
    </div>
    <div className={style.login}>
-<span>Login</span>
+<span><NavLink to={"/Login"}>Login</NavLink></span>
    </div>
     
 
