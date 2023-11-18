@@ -3,12 +3,12 @@
    
     display: flex;
     justify-content: center;
-   
+ 
  
 }
 
 .container{
- 
+ margin-top: 10vh;
     height: auto;
     width: 60%;
     display: grid;

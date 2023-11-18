@@ -9,11 +9,13 @@
     font-weight: bold;
    
     align-items: center;
+    position: fixed;
+    z-index: 10;
 
 }
 
 .logoEcole{
-    background-color:  #a294c7,;
+    background-color:  #a294c7;
     width: 16%;
     border-radius: 50px;
     display: flex;
@@ -84,76 +86,25 @@ span:active{
     cursor: pointer;
 }
 footer{
-   
-    height: 15%;
     display: flex;
+    flex-direction: column;
+    background-color: #393B65;
+    align-items: center;
+   border: 2px solid black;
+
+   height: auto;
+   color: white;
+  
+}
+.footer{
+    display: flex;
+    width: 100%;
     justify-content: space-around;
-    align-items: center;
-    text-align: center;
-    margin-bottom: 0;
 }
-footer span{
- 
-   
-height: 80px;
-width: 22vh;
-box-shadow: 0 1px 10px black;
-display: flex;
-justify-content: center;
-align-items: center;
-border-radius: 40px;
-}
-.instagram{
-    
-    height: 50px;
-    width: 50px;
+.copyright{
+    border-top: 2px double white;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(../../Assets/Logo/instagram.png);
-    background-position: center;
-    background-size: cover;
-}
-.Facebook{
-    height: 50px;
-    width: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-image: url(../../Assets/Logo/facebook_1377223.png);
-    background-position: center;
-    background-size: cover;
-}
-
-.twitter{
-    height: 50px;
-    width: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-image: url(../../Assets/Logo/twitter_3015802.png);
-    background-position: center;
-    background-size: cover;
-}
-
-.location{
-    height: 50px;
-    width: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-image: url(../../Assets/Logo/location-pin_8784583.png);
-    background-position: center;
-    background-size: cover;
-}
-
-.contact{
-    height: 50px;
-    width: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-image: url(../../Assets/Logo/call_4296502.png);
-    background-position: center;
-    background-size: cover;
 }

@@ -20,6 +20,7 @@ const Cours = () => {
               consectetur, adipisicing elit. Quam, perspiciatis.{" "}
               <button onClick={handleClick}>En savoir plus</button>{" "}
             </p>
+            
           </section>
         ) : (
           <section className={styles.ensavoirplus}>
@@ -38,8 +39,9 @@ const Cours = () => {
           </section>
         )}
         </div>
+        <br />
       </div>
-      
+      <br />
     </div>
   );
 };

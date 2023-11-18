@@ -4,6 +4,7 @@ body{
   width: 100%;
 }
 .titre{
+    padding-top: 10vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,7 +16,7 @@ body{
   
 }
 .slider{
-
+   
     width: 185vh;
  margin-left: 3%;
  height: 75vh;

@@ -7,6 +7,7 @@ import Activite from "./Components/Pages/Activite/Activite";
 import ChatMy from "./Components/Pages/Chat/ChatMy";
 import Chat from "./Components/Pages/Chat/Chat";
 import Login from "./Components/Pages/Login/Login";
+import Signin from "./Components/Pages/SignIN/Signin";
 
 
 
@@ -25,6 +26,7 @@ function App() {
   <Route path="Activite" element={<Activite/>}/>
 <Route path="Chat" element={<Chat/>}/>
 <Route path="Login" element={<Login/>}/>
+<Route path="Signin" element={<Signin/>}/>
 
 </Route>
 

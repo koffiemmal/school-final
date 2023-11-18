@@ -17,7 +17,7 @@ height: 100vh;
     justify-content: center;
 }
 .middlePage{
-   
+    margin-top: 7vh;
     height: 85%;
     display: flex;
   
@@ -35,6 +35,7 @@ height: 100vh;
     justify-content: center;
     align-items: center;
     box-shadow: 0 10px 10px #a294c7;
+    z-index: 2;
 }
 
 .imagesContainer{
@@ -50,8 +51,8 @@ height: 100vh;
 }
 .accroches{
     
-    width: 35%;
-    height: 80%;
+    width: 50%;
+    height: 95%;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -64,5 +65,28 @@ height: 100vh;
     box-shadow: 0 1px 10px #a294c7;
    border-radius: 12px;
    background-color: #393B65;
+   position: relative;
+   right: 20vh;
+   
     
 }
+
+/* footer{
+    display: flex;
+    flex-direction: column;
+    background-color: #393B65;
+    align-items: center;
+   border: 2px solid black;
+
+   height: auto;
+   color: white;
+}
+.footer{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.copyright{
+    border-top: 2px double white;
+    width: 100%;
+} */

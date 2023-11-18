@@ -1,6 +1,6 @@
 // src/components/Chat.js
 import React, { useState, useEffect } from 'react';
-
+import style from "../Chat/Chat.module.css"
 
 const Chat = () => {
   const [messages, setMessages] = useState([]);
@@ -10,8 +10,10 @@ const Chat = () => {
 
   
   return (
-    <div>
-      <div>
+    <div className={style.space}>
+    <div className={style.container}>
+      <div className={style.messagerie}>
+        <p>dfghj</p>
         {messages.map((message, index) => (
           <div key={index}>
             <strong>{message.user}:</strong> {message.text}
@@ -21,11 +23,14 @@ const Chat = () => {
       <div>
         <input
           type="text"
+          placeholder='entrer votre message'
           value={newMessage}
           onChange={(e) => setNewMessage(e.target.value)}
+
           />
         <button /* onClick={handleSendMessage} */>Envoyer</button>
       </div>
+    </div>
     </div>
   );
 };
