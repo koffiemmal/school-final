@@ -37,7 +37,7 @@
     justify-content: space-around;
     align-items: center;
     box-shadow: 0 1px 10px black;
-    background:linear-gradient(45deg,#a294c7,#ffffff);
+  /*   background:linear-gradient(45deg,#a294c7,#ffffff); */
    
 }
 
@@ -78,11 +78,11 @@
 }
 
 span:hover{
-    background:linear-gradient(95deg,rgb(2, 42, 67), rgb(215, 201, 96));
+    background:linear-gradient(45deg,#a294c7,#ffffff);
     cursor: pointer;
 }
-span:active{
-    background:linear-gradient(45deg,grey, rgb(255, 255, 255));
+span.active {
+    background: linear-gradient(45deg, grey, rgb(255, 255, 255));
     cursor: pointer;
 }
 footer{
@@ -100,6 +100,20 @@ footer{
     display: flex;
     width: 100%;
     justify-content: space-around;
+}
+.ul li{
+
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+
+}
+.acceuil :active{
+    background-color: #393B65;
+}
+.ul{
+    position: relative;
+    right: 4vh;
 }
 .copyright{
     border-top: 2px double white;

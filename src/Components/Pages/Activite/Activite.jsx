@@ -8,43 +8,15 @@ const Activite =()=>{
 
 <section className={style.article}>
   
-    <div className={style.articleImage}>mon image</div>
+   
     <div className={style.articleNom}>MESSAN</div>
-    <div className={style.description}>premiere article </div>
+    <br />
+    <div className={style.description}>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum, consequatur temporibus? Nihil laudantium doloribus, cupiditate, blanditiis, perferendis ut quidem sunt eveniet suscipit corporis provident? </div>
 
 </section>
-<section className={style.article}>
-  
-    <div className={style.articleImage}>mon image</div>
-    <div className={style.articleNom}>MESSAN</div>
-    <div className={style.description}>premiere article </div>
-
-</section><section className={style.article}>
-  
-  <div className={style.articleImage}>mon image</div>
-  <div className={style.articleNom}>MESSAN</div>
-  <div className={style.description}>premiere article </div>
-
-</section><section className={style.article}>
-  
-  <div className={style.articleImage}>mon image</div>
-  <div className={style.articleNom}>MESSAN</div>
-  <div className={style.description}>premiere article </div>
-
-</section><section className={style.article}>
-  
-  <div className={style.articleImage}>mon image</div>
-  <div className={style.articleNom}>MESSAN</div>
-  <div className={style.description}>premiere article </div>
-
-</section>
-
-
-  
- 
-
 
         </div>
+        <br />
     </div>
 
     )

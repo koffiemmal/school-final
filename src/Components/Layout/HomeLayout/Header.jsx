@@ -43,7 +43,16 @@ const Header =()=>{
             Nos services
         </h2>
    
-        <p>Creation d'article <br />Chat entre etudiant <br />redirection authentification <br />connexion a la BD <br />Parties filieres <br />Parties cours <br />Page d'acceuil</p>
+        <ul className={style.ul}>
+            <li>Creation d'article</li> 
+            <li>Chat entre etudiant</li>
+            <li>redirection authentification</li>
+            <li>connexion a la BD</li>
+            <li>Parties filieres</li>
+            <li> Partie Cours</li>
+            <li>Page d'acceuil</li>
+        </ul>
+        
     </div>
     <div className={style.amelioration}>
         <h2>Suggestion</h2><br />

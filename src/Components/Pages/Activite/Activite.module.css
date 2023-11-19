@@ -1,9 +1,10 @@
+
 .bigDiv{
   
    
     display: flex;
     justify-content: center;
- 
+ height: auto;
  
 }
 
@@ -18,27 +19,17 @@
     gap: 10px;
     z-index: 1;
     box-shadow: 0 10px 10px #393B65;
-    
+    margin-bottom: 20px;
    
 }
 .article{
   
-    height: 40vh;
+    height: 20vh;
     background-color:#a294c7 ;
     box-shadow: 0 10px 10px #393B65;
 
 }
-.articleImage{
-    margin-top: 10px;
-    height: 50%;
- 
-    border-radius: 20px;
-    width: 90%;
-    margin-left: 19px;
-    box-shadow: 0 10px 10px #000000;
-    
-    
-}
+
 
 .articleNom{
     width: 100%;

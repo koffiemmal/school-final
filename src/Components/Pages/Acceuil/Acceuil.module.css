@@ -4,7 +4,7 @@ body{
 background-size: cover;
 z-index: 5;
 
-height: 100vh;
+height: auto;
 
 
 }
@@ -62,9 +62,9 @@ height: 100vh;
     color: white;
     font-weight: bold;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    box-shadow: 0 1px 10px #a294c7;
+    box-shadow: 0 1px 10px #000000;
    border-radius: 12px;
-   background-color: #393B65;
+   background:linear-gradient(15deg,pink,#393B65);
    position: relative;
    right: 20vh;
    

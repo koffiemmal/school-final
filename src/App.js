@@ -8,6 +8,7 @@ import ChatMy from "./Components/Pages/Chat/ChatMy";
 import Chat from "./Components/Pages/Chat/Chat";
 import Login from "./Components/Pages/Login/Login";
 import Signin from "./Components/Pages/SignIN/Signin";
+import ProtectedRoute from "./Components/ProtectedRoute/ProtectedRoute";
 
 
 
@@ -22,7 +23,10 @@ function App() {
   <Route path="/" element={<Acceuil/>}/>
 
   <Route path="Filiere" element={<Filiere/>}/>
-  <Route path="Cours" element={<Cours/>}/>
+  <Route path="Cours" element={<ProtectedRoute/>}>
+  <Route index element={<Cours/>}/>
+
+  </Route>
   <Route path="Activite" element={<Activite/>}/>
 <Route path="Chat" element={<Chat/>}/>
 <Route path="Login" element={<Login/>}/>
